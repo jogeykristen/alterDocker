@@ -12,9 +12,19 @@ const statusCode = {
 };
 
 const messages = {
-  shortUrl: "The url is shortend successfully",
-  shortError: "some error occoured while make the url short",
+  userRegisteration: "user registered successfully",
+  existingUser: "user already exists",
+  catchError: "some  error occoured",
+  noUserFound: "no user found with this email or password",
+  userData: "user data fetched successfully",
+  walletSuccess: "Wallet balance retrieved successfully",
+  noWallet: "Wallet not found",
   noData: "No data found",
+  transactionSuccess: "Funds added successfully",
+  noRequiredBalance: "You dont have the required balance",
+  fundTransfer: "Fund has been transffered successfully",
+  noTransaction: "No transactions found",
+  transactionHistorySuccess: "Transaction history retrieved successfully",
 };
 
 module.exports = {
